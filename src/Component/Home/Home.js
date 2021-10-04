@@ -15,7 +15,7 @@ const Home = () => {
   }
 
     return (
-        <div>
+        <div className="course-card">
             <Layout>
                 <section className="hero-area">
                     <Hero></Hero>
@@ -24,7 +24,7 @@ const Home = () => {
                 <Books></Books>
                 <section className="container" id="courses">
                     <h3 className="section-heading">Some Of Our Courses</h3>
-                    <div className="row">
+                    <div className="row ">
                         {
                             course.map(x => <Course btn={enroleBtnhandler} key={x.id} data={x}></Course>)
                         }
