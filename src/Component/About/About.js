@@ -4,9 +4,9 @@ import img from '../../imgs/Photos/school.jpg'
 
 const About = () => {
     return (
-        <div className="d-flex">
+        <div className="d-flex col-md-6">
             <Layout>
-                <div className="my-5 col-md-6">
+                <div className="my-5">
                     <img src={img} alt="" srcset="" />
                 </div>
 
