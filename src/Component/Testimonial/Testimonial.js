@@ -1,8 +1,9 @@
 import React from 'react';
-import man from '../../imgs/Photos/Man.png';
+import './Testimonial.css'
+import man from '../../imgs/Photos/mahbub-pro.png';
 const Testimonial = () => {
     return (
-        <div>
+        <div className="testimonial-main">
             <section className="container" id="outhes">
                 <h1 className="section-heading">Testimonial</h1>
                 <div className="row">

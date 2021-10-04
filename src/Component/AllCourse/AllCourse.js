@@ -1,4 +1,5 @@
 import React from 'react';
+import './AllCourse.css'
 import AllCourseData from '../../FakeData/AllCoursesData';
 import Layout from '../Layouts/Layout';
 
@@ -15,7 +16,7 @@ const AllCourse = () => {
             <div className="mt-3">
                 <h3 className="section-heading">Our All Courses </h3>
             </div>
-            <div className="container">
+            <div className="container main-div">
                 <div className="row">
                     {
                         AllCourseData.map((data, index) => <div className="col-md-4 col-12 col-sm-6" style={cardHeight}>

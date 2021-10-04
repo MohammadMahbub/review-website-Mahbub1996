@@ -1,4 +1,5 @@
 import React from 'react';
+import './Books.css'
 import book from '../../imgs/ICON/book.png';
 import student from '../../imgs/ICON/Student.png';
 import Test from '../../imgs/ICON/Test.png';

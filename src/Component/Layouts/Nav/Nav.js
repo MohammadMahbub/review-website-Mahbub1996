@@ -1,5 +1,5 @@
 import React from 'react';
-import Logo from '../../../imgs/ICON/Logo.png';
+import Logo from '../../../imgs/ICON/logo1.png';
 import {Link} from 'react-router-dom';
 
 
@@ -25,9 +25,7 @@ const Nav = () => {
                             <li className="nav-item">
                                 <Link className="nav-link" to="/about">About</Link>
                             </li>
-                            <li className="nav-item">
-                                <Link className="nav-link" href="#footer-area">Blog</Link>
-                            </li>
+                            
                             <li className="nav-item m-auto">
                                 <button className="nav-link button sign-in">Sign in</button>
                             </li>

@@ -1,0 +1,8 @@
+.box{
+    background-color: rgb(232, 252, 240);
+    box-shadow: 1px 0px 5px 5px rgb(227, 240, 252) ;
+}
+
+.box small, h6{
+    font-weight: bold;
+}
