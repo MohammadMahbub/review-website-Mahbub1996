@@ -9,6 +9,7 @@ import {
 } from "react-router-dom";
 import Home from './Component/Home/Home';
 import AllCourse from './Component/AllCourse/AllCourse';
+import About from './Component/About/About';
 
 
 function App() {
@@ -21,6 +22,9 @@ function App() {
           </Route>
           <Route path="/all-course">
             <AllCourse />
+          </Route>
+          <Route path="/about">
+            <About />
           </Route>
           <Route exact path="/">
             <Home />
