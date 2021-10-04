@@ -11,6 +11,7 @@ import Home from './Component/Home/Home';
 import AllCourse from './Component/AllCourse/AllCourse';
 import About from './Component/About/About';
 import Books from './Component/Books/Books';
+import Blog from './Component/Blog/Blog';
 
 
 
@@ -35,7 +36,7 @@ function App() {
           </Route>
 
           <Route path="/blog">
-            <Books/>
+            <Blog />
           </Route>
 
           <Route path="/about">
